@@ -11,7 +11,7 @@ class Nebo < Formula
   on_macos do
     on_arm do
       url "https://github.com/nebolabs/nebo/releases/download/v#{version}/nebo-darwin-arm64"
-      sha256 "bac66ff12574e3a6f99a93a69018e1b4596b98ae4bd0fc43c62d522cb7cfd6ce"
+      sha256 "03e84bf62a70aa53a05e66759a721925fd89eb99eb06daea8729742e3e336e29"
 
       def install
         bin.install "nebo-darwin-arm64" => "nebo"
@@ -20,7 +20,7 @@ class Nebo < Formula
 
     on_intel do
       url "https://github.com/nebolabs/nebo/releases/download/v#{version}/nebo-darwin-amd64"
-      sha256 "6d0e93536537f571d25d4beec56b618ba81c5352f3e4a69fa94574c62d25d71e"
+      sha256 "5d900140c26f4cf5826c0942de4a024d507637ea4b724660165ba2419dd27f2e"
 
       def install
         bin.install "nebo-darwin-amd64" => "nebo"
@@ -31,7 +31,7 @@ class Nebo < Formula
   on_linux do
     on_arm do
       url "https://github.com/nebolabs/nebo/releases/download/v#{version}/nebo-linux-arm64"
-      sha256 "87e174211abf2b3615f90ab25900adc1b24eb6f45dc56922dce1cc5d7fd11bfd"
+      sha256 "d979b4c9d7ca58db5eeb7090aa1f63dbca310e5c64fea6ef2125b9801d0ee946"
 
       def install
         bin.install "nebo-linux-arm64" => "nebo"
@@ -40,7 +40,7 @@ class Nebo < Formula
 
     on_intel do
       url "https://github.com/nebolabs/nebo/releases/download/v#{version}/nebo-linux-amd64"
-      sha256 "3cfc1bbdc6242094d3cd7ca6c85a55ee3e8c504d0bb587149c3f2700f8a15147"
+      sha256 "7176c90483293f070f4adc157727aafbda1cf41303be4dab91ba46f57e3d54bd"
 
       def install
         bin.install "nebo-linux-amd64" => "nebo"
