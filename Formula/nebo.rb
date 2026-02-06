@@ -11,7 +11,7 @@ class Nebo < Formula
   on_macos do
     on_arm do
       url "https://github.com/nebolabs/nebo/releases/download/v#{version}/nebo-darwin-arm64"
-      sha256 "03e84bf62a70aa53a05e66759a721925fd89eb99eb06daea8729742e3e336e29"
+      sha256 "2ff792fdfb57a1471eea2672f295ffb29c4e1769256d990d9dce9ddaf9107f94"
 
       def install
         bin.install "nebo-darwin-arm64" => "nebo"
