@@ -4,12 +4,12 @@ cask "nebo" do
 
   on_arm do
     url "https://github.com/NeboLoop/nebo/releases/download/v0.1.9/Nebo-0.1.9-arm64.dmg"
-    sha256 "3af3ee63285bce0487ec7ef338cf81f07a41f35c015cee741bb3deac7c81f55b"
+    sha256 "fac7538659722ddf5eab8455593bf8ace9b816e1af93208e753b70ad01bdd707"
   end
 
   on_intel do
     url "https://github.com/NeboLoop/nebo/releases/download/v0.1.9/Nebo-0.1.9-amd64.dmg"
-    sha256 "6dfb4e16821f3e59730d3204a6f6b6c6969ecf953e0814d06abc1fca1aa7c399"
+    sha256 "0c1054e2ceef46bc60fa8c958f396d5a262202ac701e69d6f8bfb310cc4fa8ab"
   end
 
   name "Nebo"
